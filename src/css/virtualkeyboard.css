@@ -1,0 +1,29 @@
+.buttonStyle{
+    margin: 0.2rem;
+    box-shadow: rgba(116, 116, 116, 0.24) 0px 3px 8px;
+}
+.keyboardContainer{
+    text-align: center;
+}
+img{
+    width: 15px;
+}
+.textCursor{
+    animation: textCursorAnim 1s ease-in-out infinite;
+}
+
+.spacebar{
+    width: 40%;
+}
+@keyframes textCursorAnim {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+    
+}

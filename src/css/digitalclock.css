@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: clockfont;
+    src: url(../assets/clock_font.ttf);
+}
+h2 {
+    font-family: clockfont;
+    font-size: 50px;
+}
